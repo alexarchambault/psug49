@@ -1,0 +1,195 @@
+body {
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  /*text-align: left;
+  margin-left: 50px;*/
+}
+
+.remark-slide-content h1 {
+  font-size: 55px;
+}
+
+.remark-slide-content {
+  font-size: 25px;
+}
+
+h2 {
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+}
+
+#slide-title h1 {
+  margin-bottom: 0.2em;
+}
+
+#slide-title h2 {
+  margin-top: 0.2em;
+}
+
+#psug {
+  height: 6em;
+  vertical-align: 0%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+
+/*a:hover, a:visited, a:link, a:active {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}*/
+
+.inverse {
+  background: #272822;
+  color: #f3f3f3;
+  text-shadow: 0 0 20px #333;
+}
+.inverse h1, .inverse h2, .inverse a {
+  color: #f3f3f3;
+}
+
+.remark-slide-number {
+  display: none;
+}
+
+.list ul {
+  list-style-type: none;
+}
+
+.list {
+  vertical-align: middle;
+}
+
+#timeline {
+  width: 100%;
+}
+
+/*#alize {
+  width: 55%;
+  left: 400px;
+  top: 100px;
+  z-index: 3;
+}*/
+
+#custom {
+  margin-top: 100px;
+}
+
+#brck {
+  font-size: 10em;
+  float: left;
+  margin-top: -100px;
+  padding: 0;
+  font-weight: 200;
+}
+
+#slide-about ul {
+  width: 80%;
+}
+
+.spacebefore {
+  margin-top: 70px;
+}
+
+#slide-whyscala2 h2 {
+  margin-left: 5%;
+}
+
+#cubeleg {
+  float: right;
+  width: 50%;
+  margin-top: -5%;
+  margin-right: -80px;
+  text-align: center;
+}
+
+#cube {
+  width: 100%;
+}
+
+#cube-code {
+  display: block;
+  width: 60%;
+}
+
+#cube-code-dep {
+  margin-bottom: 40px;
+  visibility: hidden;
+}
+
+#slide-barendregtlast #cube-code-dep {
+  visibility: visible;
+}
+
+#slide-miseenbouche3 h1, #slide-miseenbouche31 h1, #slide-miseenbouche32 h1, #slide-miseenbouche33 h1 {
+  margin-top: 0px;
+}
+
+#depfun {
+  width: 60%;
+}
+
+.up h1 {
+  margin-top: 10px;
+}
+
+.up h2 {
+  margin-top: 10px;
+}
+
+.compact pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.compact .hljs {
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.mildcompact pre {
+  margin-top: 5;
+  margin-bottom: 5;
+}
+
+.mildcompact .hljs {
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.strike{
+    position: relative;
+}
+
+.strike::after{
+    content: '';
+    border-bottom: 4px solid black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+}
+
+.small {
+  font-size: 0.7em;
+}
+
+.img100 {
+  width: 100%;
+}
+
+#slide-plan li {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
